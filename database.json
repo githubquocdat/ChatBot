@@ -1,0 +1,86 @@
+{
+  "price": {
+    "Tour 2 ngày 1 đêm A1": "3.000.000",
+    "Tour 2 ngày 1 đêm A2": "3.200.000",
+    "Tour 2 ngày 1 đêm A3": "3.500.000",
+    "Tour 3 ngày 2 đêm B1": "4.000.000",
+    "Tour 3 ngày 2 đêm B2": "4.200.000",
+    "Tour 3 ngày 2 đêm B3": "4.500.000",
+    "Tour 4 ngày 3 đêm C1": "5.000.000",
+    "Tour 4 ngày 3 đêm C2": "5.200.000",
+    "Tour 4 ngày 3 đêm C3": "5.500.000",
+    "Tour 5 ngày 4 đêm D1": "7.500.000"
+  },
+  "LichTrinh": {
+    "Tour 2 ngày 1 đêm A1": "Ngũ Hành Sơn,Hội An, Bà Nà Hills",
+    "Tour 2 ngày 1 đêm A2": "Ngũ Hành Sơn, Sơn trà ,Cù Lao Chàm.",
+    "Tour 2 ngày 1 đêm A3": "Ngũ Hành Sơn ,Hội An,Cù Lao Chàm",
+    "Tour 3 ngày 2 đêm B1": "Đà Nẵng,Ngũ Hành Sơn,Hội An,Làng đá mĩ nghệ,Bán đảo sơn trà",
+    "Tour 3 ngày 2 đêm B3": "Đà Nẵng,Ngũ Hành Sơn ,Hội an,Cù Lao Chàm,Bà nà",
+    "Tour 4 ngày 3 đêm C1": "Đà Nẵng,Sơn trà,Bà Nà,Ngũ Hành Sơn,Rừng Dừa Bảy Mẫu , Hội an",
+    "Tour 4 ngày 3 đêm C2": "Đà Nẵng,Sơn Trà,Bà Nà,Ngũ Hành Sơn,Cù Lao Chàm,Hội An.",
+    "Tour 4 ngày 3 đêm C3": "Đà Nẵng,Chùa linh ứng,Ngũ Hành Sơn,Hội An,Cù Lao Chàm,Bà Nà.",
+    "Tour 5 ngày 4 đêm D1": "Đà Nẵng ,Chùa linh ứng ,Ngũ Hành Sơn,Hội An,Cù Lao Chàm,Bà Nà."
+  },
+  "Cut_price": {
+    "Trẻ em tour 2 ngày 1 đêm A1": "2.500.000 /1 trẻ",
+    "Trẻ em tour 3 ngày 2 đêm B1": "3.500.000 /1 trẻ",
+    "Trẻ em tour 4 ngày 3 đêm C1": "4.500.000 /1 trẻ",
+    "Trẻ em tour 5 ngày 4 đêm D1": "7.000.000 /1 trẻ",
+    "Trẻ em tour 2 ngày 1 đêm A2": "2.700.000 /1 trẻ",
+    "Trẻ em tour 3 ngày 2 đêm B2": "3.700.000 /1 trẻ",
+    "Trẻ em tour 4 ngày 3 đêm C2": "4.700.000 /1 trẻ",
+    "Trẻ em tour 2 ngày 1 đêm A3": "3.000.000 /1 trẻ",
+    "Trẻ em tour 3 ngày 2 đêm B3": "4.000.000 /1 trẻ",
+    "Trẻ em tour 4 ngày 3 đêm C3": "5.000.000 /1 trẻ",
+    "Người cao tuổi tour 2 ngày 1 đêm A1": "2.500.000 /1 người",
+    "Người cao tuổi tour 3 ngày 2 đêm B1": "3.500.000 /1 người",
+    "Người cao tuổi tour 4 ngày 3 đêm C1": "4.500.000 /1 người",
+    "Người cao tuổi tour 5 ngày 4 đêm D1": "7.000.000 /1 người",
+    "Người cao tuổi tour 2 ngày 1 đêm A2": "2.700.000 /1 người",
+    "Người cao tuổi tour 3 ngày 2 đêm B2": "3.700.000 /1 người",
+    "Người cao tuổi tour 4 ngày 3 đêm C2": "4.700.000 /1 người",
+    "Người cao tuổi tour 2 ngày 1 đêm A3": "3.000.000 /1 người",
+    "Người cao tuổi tour 3 ngày 2 đêm B3": "4.000.000 /1 người",
+    "Người cao tuổi tour 4 ngày 3 đêm C3": "5.000.000 /1 người"
+  },
+  "Cancel_Tour": {
+    "Tour 2 ngày 1 đêm A1": "1.000.000",
+    "Tour 2 ngày 1 đêm A2": "1.200.000",
+    "Tour 2 ngày 1 đêm A3": "1.500.000",
+    "Tour 3 ngày 2 đêm B1": "2.000.000",
+    "Tour 3 ngày 2 đêm B2": "2.200.000",
+    "Tour 3 ngày 2 đêm B3": "2.500.000",
+    "Tour 4 ngày 3 đêm C1": "3.000.000",
+    "Tour 4 ngày 3 đêm C2": "3.200.000",
+    "Tour 4 ngày 3 đêm C3": "3.500.000",
+    "Tour 5 ngày 4 đêm D1": "4.500.000"
+  },
+  "accommodation": {
+    "Tour 2 ngày 1 đêm:": "400.000 / 1 ngày",
+    "Tour 3 ngày 2 đêm:": "600.000 / 1 ngày",
+    "Tour 4 ngày 3 đêm:": "800.000 / 1 ngày",
+    "Tour 5 ngày 4 đêm:": "1.000.000 / 1 ngày"
+  },
+  "My_khue_beach": {
+    "My khue beach": "Tour B1,C1,D1"
+  },
+  "NGU_HANH_SON": {
+    "ngu hanh son": "Tour A2,C2,B2"
+  },
+  "Bai_but": {
+    "bai but": "Tour C2,D2"
+  },
+  "Ba_na": {
+    "ba na": "Tour A1,C2,B3"
+  },
+  "Nui_than_tai": {
+    "nui than tai": "Tour B2,C2,D1"
+  },
+  "Cu_Lao_Cham": {
+    "Cù Lao Chàm": "Tour B3,C3,D1"
+  },
+  "Rung_dua_bay_mau": {
+    "rung dua bay mau": "Tour C2,D1,A2"
+  }
+}

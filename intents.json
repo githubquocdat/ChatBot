@@ -1,0 +1,859 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào ad",
+        "Chào admin",
+        "Ad ơi",
+        "hi",
+        "hello",
+        "có ai ở đây không ạ",
+        "bắt đầu",
+        "Hey!",
+        "ad ơi em muốn tư vấn tour với ạ",
+        "ai có thể giúp em không",
+        "dạ cho em hỏi",
+        "cho hỏi có ai chat được bây giờ không",
+        "em cần tư vấn ạ",
+        "làm ơn giúp em",
+        "em đang cần một ít thông tin",
+        "chào ad, em có một câu hỏi",
+        "em có một vấn đề cần được giải thích"
+      ],
+      "responses": [
+        "Chào bạn, DANANG tourist chuyên về các tour của thành phố Đà Nẵng xin nghe.Mình có thể giúp gì cho bạn được ạ"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "goodbye",
+        "good bye",
+        "Tạm biệt",
+        "Bai",
+        "pp",
+        "hẹn gặp lại",
+        "bái bai ad nha",
+        "cảm ơn và chào tạm biệt",
+        "chúc một ngày tốt lành và tạm biệt",
+        "em sẽ liên hệ lại sau ạ",
+        "em sẽ quay lại sau",
+        "em sẽ tìm đến ad sau",
+        "em sẽ quay lại nếu có thêm câu hỏi"
+      ],
+      "responses": [
+        "Chúc bạn ngày mới tốt đẹp",
+        "Hẹn bạn một ngày tuyệt vời tại DANANG tourist ạ",
+        "Hy vọng bạn đã có câu trả lời tốt nhất cho mình , hẹn bạn một người đẹp trời tại DANANG tourist"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn ",
+        "thanks",
+        "tks",
+        "thank you",
+        "tks ad",
+        "cảm ơn đã giúp đỡ em",
+        "cảm ơn vì đã tư vấn ạ",
+        "em xin cảm ơn",
+        "cảm ơn bên mình vì nhiệt tình ạ"
+      ],
+
+      "responses": [
+        "cảm ơn vì bạn đã tin tưởng DANANG tourist ạ",
+        "mình rất vui vì đã giúp được bạn",
+        "mình rất hân hịnh khi được giúp bạn ạ",
+        "cảm ơn vì đã tin tưởng DANANG tourist ạ"
+      ]
+    },
+    {
+      "tag": "not_understand",
+      "patterns": [
+        "mình có được mua đồ không ",
+        "thời gian đi tốn nhiều không",
+        "điểm khác nhau giữa các hành khách trong đoàn",
+        "không muốn đi có bị sao không",
+        "làm sao để không được đi",
+        "muốn đề nghị đổi hành khách chung tour",
+        "tôi có được ưu tiên gì không",
+        "đi không cần đóng tiền được không",
+        "biết tôi là ai không",
+        "bạn có món gì ngon",
+        "ngày mai sẽ có mưa không",
+        "tôi muốn được đi ngủ",
+        "tôi không thích đi xe "
+      ],
+      "responses": [
+        "Xin lỗi, mình không thể hiểu được bạn đang nói gì . Bạn có thể giải thích chi tiết hơn được không ?",
+        "Mình không hiểu ý bạn lắm",
+        "xin lỗi nhưng bạn có thể giải thích chi tiết hơn không",
+        "bạn ơi , mình không hiểu ý của bạn lắm , mình mong bạn giải thích chi tiết hơn á ",
+        "Bạn có thể trình bày kĩ hơn những thắc mắc của bạn không ? mình xin lỗi vì bất tiện này"
+      ]
+    },
+    {
+      "tag": "HuongDanDangKi",
+      "patterns": [
+        "Làm thế nào để đăng ký được tour?",
+        "Tôi cần thông tin về các tour của bên bạn",
+        "tôi muốn đăng kí tour thì phải làm như nào",
+        "Hướng dẫn cách đăng kí tour",
+        "Em muốn đăng kí tour thì phải làm những gì ạ",
+        "Cần làm gì để đăng kí tour ạ",
+        "bên mình còn cho đăng kí tour không ạ",
+        "Em cần tư vấn về đăng kí tour với ạ"
+      ],
+      "responses": [
+        "bạn có thể đăng kí tour bên mình ,bạn có liên hệ với số điện thoại tổng đài 0858.752.736 bên mình tư vấn ạ,hoặc để lại thông tin số điện thoại ,để nhân viên bên mình tư vấn ạ. "
+      ]
+    },
+    {
+      "tag": "discount",
+      "patterns": [
+        "Có giảm giá tại DANANG tourist không?",
+        "Tôi muốn biết về chính sách giảm giá",
+        "Làm thế nào để được giảm giá?",
+        "ad ơi có những chính sách giảm giá nào không á",
+        "cho em hỏi làm thế nào để được giảm giá tại DANANG tourist",
+        "cho em hỏi mình giảm giá được bao nhiêu là cao nhất ạ",
+        "ad ơi có hỗ trợ giảm giá cho trẻ em không ạ",
+        "ad ơi có hỗ trợ giảm giá cho người lớn tuổi không ạ"
+      ],
+      "responses": [
+        "Có nhiều loại giảm giá tại DANANG tourist lắm ạ, có giảm giá cho người lớn tuổi và trẻ em , lên đến 50% ."
+      ]
+    },
+    {
+      "tag": "end_of_tour",
+      "patterns": [
+        "hạn cuối đăng kí tour là khi nào?",
+        "cần thông tin về hạn cuối đăng kí tour",
+        "Làm thế nào để biết hạn cuối đăng kí tour?",
+        "ad cho e hỏi ngày cuối để đăng kí tour là khi nào",
+        "bên mình còn mở đăng kí tour không ạ",
+        "Em cần thông tin về hạn cuối đăng kí tuor ạ",
+        "Ngày mấy là hết hạn đăng kí ad"
+      ],
+      "responses": [
+        "Hạn chót đăng kí các tour sẽ là ngày 6 của tháng ạ. Đừng quên đăng kí sớm để có trải nghiệm vui chơi tốt nhất ạ."
+      ]
+    },
+    {
+      "tag": "Register_2ngay_1dem",
+      "patterns": [
+        "tôi muốn đăng kí tour 2 ngày 1 đêm?",
+        "đăng kí 2 ngày 1 đêm",
+        "có tour nào 2 ngày 1 đêm không?",
+        "2 ngày 1 đêm đi được tour nào?",
+        "2 ngày 1 đêm thì nên đi tour nào?",
+        "2 ngày 1 đêm thì nên đi đâu?",
+        "2 ngày 1 đêm thì bạn gợi ý nên đi đâu ?"
+      ],
+      "responses": [
+        "đối với tour 2 ngày 1 đêm thì bên mình có 3 loại tour là A1,A2,A3 bạn có thể tham khảo ạ",
+        "2 ngày 1 đêm người thì bên mình có 3 loại tour là A1,A2,A3 bạn có thể tham khảo ạ"
+      ]
+    },
+    {
+      "tag": "Register_3ngay_2dem",
+      "patterns": [
+        "tôi muốn đăng kí tour 3 ngày 2 đêm?",
+        "đăng kí 3 ngày 2 đêm",
+        "có tour nào 3 ngày 2 đêm không?",
+        "3 ngày 2 đêm đi được tour nào?",
+        "3 ngày 2 đêm thì nên đi tour nào?",
+        "3 ngày 2 đêm thì nên đi đâu?",
+        "3 ngày 2 đêm thì bạn gợi ý nên đi đâu ?"
+      ],
+      "responses": [
+        "đối với tour 3 ngày 2 đêm thì bên mình 3 loại tour là B1,B2,B3 bạn có thể tham khảo ạ",
+        "3 ngày 2 đêm người thì bên mình 3 loại tour là B1,B2,B3 bạn có thể tham khảo ạ"
+      ]
+    },
+    {
+      "tag": "Register_4ngay_3dem",
+      "patterns": [
+        "tôi muốn đăng kí tour 4 ngày 3 đêm?",
+        "đăng kí 4 ngày 3 đêm",
+        "có tour nào 4 ngày 3 đêm không?",
+        "4 ngày 3 đêm đi được tour nào?",
+        "4 ngày 3 đêm thì nên đi tour nào?",
+        "4 ngày 3 đêm thì nên đi đâu?",
+        "4 ngày 3 đêm thì bạn gợi ý nên đi đâu ?"
+      ],
+      "responses": [
+        "đối với tour 4 ngày 3 đêm thì bên mình 3 loại tour là C1,C2,C3 bạn có thể tham khảo ạ",
+        "4 ngày 3 đêm người thì bên mình 3 loại tour là C1,C2,C3 bạn có thể tham khảo ạ"
+      ]
+    },
+    {
+      "tag": "Register_5ngay_4dem",
+      "patterns": [
+        "tôi muốn đăng kí tour 5 ngày 4 đêm?",
+        "đăng kí 5 ngày 4 đêm",
+        "có tour nào 5 ngày 4 đêm không?",
+        "5 ngày 4 đêm đi được tour nào?",
+        "5 ngày 4 đêm thì nên đi tour nào?",
+        "5 ngày 4 đêm thì nên đi đâu?",
+        "5 ngày 4 đêm thì bạn gợi ý nên đi đâu ?"
+      ],
+      "responses": [
+        "đối với tour 5 ngày 4 đêm thì bên mình có duy nhất 1 tour là D1 bạn có thể tham khảo ạ",
+        "5 ngày 4 đêm người thì bên mình có duy nhất 1 tour D1 bạn có thể tham khảo ạ"
+      ]
+    },
+    {
+      "tag": "majors_offered",
+      "patterns": [
+        "Các trải nghiệm tôi có thể có với tour của bạn?",
+        "Tôi muốn biết về các trải nghiệm tôi sẽ có được",
+        "Có những trải nghiệm gì?",
+        "Ad có thể giới thiệu cho em về vài nổi bật của tour mình với ạ",
+        "Em muốn tìm hiểu về các trải nghiệm của tour mình ạ",
+        "Các trải nghiệm của tour mình?",
+        "bên mình có các loại trải nghiệm gì ạ?"
+      ],
+      "responses": [
+        "Tour du lịch ở Đà Nẵng có thể bao gồm thăm các điểm du lịch nổi tiếng như Bà Nà Hills, Ngũ Hành Sơn, Cầu Rồng, và khu vực biển Mỹ Khê. Ngoài ra, bạn cũng có thể khám phá ẩm thực địa phương, tham gia các hoạt động giải trí, và thư giãn tại các resort ven biển."
+      ]
+    },
+    {
+      "tag": "application_status",
+      "patterns": [
+        "Làm thế nào để kiểm tra tình trạng tour?",
+        "Tôi muốn biết về tình trạng tour",
+        "Cách để các để xem tình trạng tour của mình",
+        "Làm thế nào để xem tour của mình?",
+        "Làm sao để biết thông tin tour của mình?",
+        "Có cách nào để biết thông tin tour của mình?",
+        "Làm thế nào để theo dõi thông tin tour?",
+        "thông tin tour?",
+        "mình xin phép được hỏi thông tin tour với ạ"
+      ],
+      "responses": [
+        "Bạn có thể kiểm tra thông tin tour bằng cách truy cập trang chủ ạ, để xem thông tin chi tiết",
+        "Thông tin tour của bạn sẽ được cập nhập trên trang chủ ạ."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "tour đã bao gồm nơi nghỉ ngơi chưa ạ?",
+        "Thông tin về nơi nghỉ ngơi",
+        "Làm thế nào để chọn được nơi nghỉ ngơi?",
+        "tour của mình đã bao gồm cả nơi nghỉ rồi đúng không ad?",
+        "nơi nghỉ ngơi.",
+        "Chi phí của nơi nghỉ ngơi.",
+        "giá của nơi nghỉ ngơi được bao gồm trong tour rồi chứ ạ?",
+        "Địa chỉ nơi nghỉ ngơi ở đâu vậy ad?",
+        "Mức giá của nơi nghỉ ngơi.",
+        "Nơi nghỉ ngơi có hiện đại không ạ?"
+      ],
+      "responses": [
+        "Nơi nghỉ ngơi có nhiều loại phòng khác nhau ạ. Đối với {} thì giá qua đêm sẽ là {} đã được thanh toán khi đăng kí tour ạ."
+      ]
+    },
+    {
+      "tag": "outside_events",
+      "patterns": [
+        "tour có các hoạt động ngoài trời không ạ",
+        "Có sự kiện ngoài trời nào không?",
+        "Hoạt động ngoài trời khi nào vậy ad?",
+        "Hoạt động ngoài trời có gì hấp dẫn không ad?",
+        "tổ chức các sự kiện trong khi đi tour được không ạ ?.",
+        "Làm thế nào để tham gia hoạt động ngoài trời khi đi tour ạ?"
+      ],
+      "responses": [
+        "Tour thường tổ chức các sự kiện như hoạt động ngoài trời nếu bạn có nhu cầu tham gia."
+      ]
+    },
+    {
+      "tag": "getDisscout",
+      "patterns": [
+        "Làm thế nào để nhận được giảm giá ?",
+        "Thông tin về sự kiện giảm giá",
+        "Có giảm giá không?",
+        "Đối tượng được giảm giá?",
+        "Giảm giá của tour bao gồm những gì ạ?",
+        "Điều kiện để được nhận giảm giá?",
+        "Mình muốn được giảm giá , thì phải làm như nào?",
+        "Trẻ con và người cao tuổi có được giảm giá không ?"
+      ],
+      "responses": [
+        "Tour có một số chính sách giảm giá lên đến 50% ,ưu đãi cho trẻ em và người cao tuổi , ưu đãi vé buffet , vé phòng ,..."
+      ]
+    },
+    {
+      "tag": "event",
+      "patterns": [
+        "Có thể tổ chức sự kiện sinh nhật không ?",
+        "tổ chức sinh nhật trong khi đi tour?",
+        "Đăng kí tổ chức sự kiện sinh nhật thì làm thế nào ạ",
+        "Có thể tổ chức sự kiện khi đang đi tour không ?",
+        "Tổ chức sự kiện khi đăng đi tour",
+        "Đăng kí tổ chức sự kiện thì làm thế nào ạ"
+      ],
+      "responses": [
+        "Bạn có thể tổ chức các sự kiện như , sinh nhật , mừng thọ,... Bạn có thể đăng kí tổ chức bằng cách liên hệ với ban tổ chức tour ạ"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Có những tour nào được cung cấp bên bạn ?",
+        "Danh sách các tour bên bạn",
+        "Tôi muốn biết về các tour bên bạn."
+      ],
+      "responses": [
+        "DANAN tourist cung cấp hàng loạt tour và đa dạng thời gian cho bạn lựa chọn.Hiện nay có các tour A1,A2,A3,B1,B2,B3,C1,C2,C3,D1"
+      ]
+    },
+    {
+      "tag": "AnSang",
+      "patterns": [
+        "các món ăn được phục vụ khi đi tour?",
+        "đồ ăn của tour",
+        "Tôi muốn tìm hiểu về ẩm thực của tour.",
+        "Cho mình hỏi, tour bên mình có bao gồm đồ ăn chưa ạ",
+        "mình muốn trải nghiệm ẩm thực địa phương thì được không ad",
+        "các loại hình ẩm thực của tour"
+      ],
+      "responses": [
+        "Tour đã bao gồm dịch vụ ăn uống cho quý khách, Chúng ta sẽ trải nghiệm ẩm thực địa phương vào buổi sáng, còn các buổi còn lại quý khách sẽ được phục vụ ăn uống tại nhà hàng nổi tiếng của địa phương."
+      ]
+    },
+    {
+      "tag": "mountain",
+      "patterns": [
+        "Các địa điểm ngắm cảnh đẹp của Đà Nẵng?",
+        "Nơi ngắm cảnh đẹp của thành phố",
+        "Tôi muốn hỏi về những nơi ngắm cảnh đẹp.",
+        "Tour có đi những nơi ngắm cảnh đẹp không",
+        "Những nơi có thể chụp được cảnh Đà Nẵng",
+        "Có tổ chức đi tham quan những nơi có cảnh đẹp không"
+      ],
+      "responses": [
+        "Tour sẽ tổ chức cho bạn ngắm cảnh ở các địa điểm có cảnh đẹp như :Sơn Trà,Đỉnh Bàn cờ , Bãi đá đen,..."
+      ]
+    },
+    {
+      "tag": "beach",
+      "patterns": [
+        "Các bãi biển đẹp của Đà Nẵng?",
+        "Nơi ngắm cảnh biển đẹp của thành phố",
+        "Tôi muốn hỏi về những bãi biển của thành phố.",
+        "Tour có đi các bãi biển không",
+        "Những bãi biển đẹp Đà Nẵng",
+        "Có tổ chức đi tham quan những bãi biển không?",
+        "Có tổ chức đi biển không"
+      ],
+      "responses": [
+        "Tour sẽ tổ chức cho bạn tham quan các bãi biển đẹp của Đà Nẵng như : biển mỹ khê,biển non nước,bãi rạn,..."
+      ]
+    },
+    {
+      "tag": "camping",
+      "patterns": [
+        "Có dịch vụ cắm trại không?",
+        "cắm trại khi đi tour",
+        "Tôi muốn biết về cắm trại trong tour được không ?",
+        "cho em hỏi đang đi tour thì mình tổ chức cắm trại được không ạ",
+        "Em muốn được tổ chức cắm trại cần điều kiện gì không",
+        "em muốn hỏi tour mình có tổ chức cắm trại không ạ"
+      ],
+      "responses": ["Tour sẽ có tổ chức cắm trại ở duy nhất tour D1."]
+    },
+    {
+      "tag": "swim",
+      "patterns": [
+        "Được phép tắm biển không ?",
+        "Có được đi tắm biển không ?",
+        "Tôi muốn tham gia tắm biển.",
+        "Em muốn hỏi là tour mình được tắm  biển không?",
+        "em biết bơi thì có được đi tắm biển không ?",
+        "có tắm biển được không ?",
+        "tour có đi tắm biển không ?"
+      ],
+      "responses": ["Tất cả các tour đều có hoạt động tăm biển ạ."]
+    },
+    {
+      "tag": "NGU_HANH_SON",
+      "patterns": [
+        "Có tour nào tham quan ngũ hành sơn không ?",
+        "tôi muốn tham quan ngũ hành sơn",
+        "Tham quan ngũ hành sơn."
+      ],
+      "responses": ["Về điểm du lịch {},bên em có các tour {}. "]
+    },
+    {
+      "tag": "NguHanhSon",
+      "patterns": [
+        "tôi muốn tìm hiểu về ngũ hành sơn",
+        "Thông tin ngũ hành sơn",
+        "Ngũ hành sơn có gì?",
+        "Đi ngũ hành sơn chơi gì?"
+      ],
+      "responses": [
+        "Cách Đà Nẵng khoảng 8km, Ngũ Hành Sơn, còn được gọi là Non Nước, là một khu danh thắng nổi tiếng với năm ngọn núi được tượng trưng cho năm yếu tố: Kim, Mộc, Thủy, Hỏa, Thổ. Du khách có thể thăm quan các hang động, đền chùa và thưởng thức khung cảnh đẹp."
+      ]
+    },
+    {
+      "tag": "My_khue_beach",
+      "patterns": [
+        "Có tour nào tham quan biển mỹ khuê không ?",
+        "tôi muốn tham quan biển mỹ khuê",
+        "Tham quan biển mỹ khuê."
+      ],
+      "responses": ["Về điểm du lịch {},bên em có các tour {}."]
+    },
+    {
+      "tag": "mykhue",
+      "patterns": [
+        "tôi muốn tìm hiểu về biển mỹ khuê",
+        "Thông tin biển mỹ khuê",
+        "Biển mỹ khuê có gì?",
+        "Đi biển mỹ khuê chơi gì?"
+      ],
+      "responses": [
+        "Nằm cách trung tâm thành phố Đà Nẵng chỉ tầm 3km,Được mệnh danh là một trong những bãi biển quyến rũ nhất hành tinh, Đến du lịch biển Mỹ Khê, bạn có thể hoàn toàn yên tâm tham gia các hoạt động dưới nước như bơi lội, tắm biển. Tại một bãi biển mà du lịch đang nở rộ như Mỹ Khê, đội ngũ nhân viên bảo hộ thường xuyên túc trực để đảm bảo được sự an toàn cho quá trình vui chơi của du khách."
+      ]
+    },
+    {
+      "tag": "Bai_but",
+      "patterns": [
+        "Có tour nào tham quan Bãi bụt không ?",
+        "tôi muốn tham quan bãi bụt ",
+        "Tham quan bãi bụt."
+      ],
+      "responses": ["Về điểm du lịch {},bên em có các tour {}."]
+    },
+    {
+      "tag": "Baibut",
+      "patterns": [
+        "tôi muốn tìm hiểu về bãi bụt",
+        "Thông tin bãi bụt",
+        "Bãi bụt có gì?",
+        "Đi Bãi bụt chơi gì?"
+      ],
+      "responses": [
+        "Khu du lịch Bãi Bụt chỉ mới được đưa vào khai thác từ năm 2012 nên so với chuỗi các khu bãi biển, ghềnh đá ven biển tại bán đảo thì nơi này vẫn còn giữ những nét hoang sơ. Đây được xem là một điểm đến dành cho những ai muốn khám phá thiên nhiên một cách trọn vẹn nhất với biển xanh, bãi cát trắng, nắng vàng và những ghềnh đá san hô nhấp nhô."
+      ]
+    },
+    {
+      "tag": "Ba_na",
+      "patterns": [
+        "Có tour nào tham quan Bà nà hills không ?",
+        "tôi muốn tham quan Bà nà hills",
+        "Tham quan Bà Nà Hills."
+      ],
+      "responses": ["Về điểm du lịch {},bên em có các tour {}."]
+    },
+    {
+      "tag": "Bana",
+      "patterns": [
+        "tôi muốn tìm hiểu về Bà Nà",
+        "Thông tin Bà Nà",
+        "Bà Nà có gì?",
+        "Đi Bà Nà chơi gì?"
+      ],
+      "responses": [
+        "Nằm ở độ cao 1.487m so với mực nước biển, Sun World Ba Na Hills được mênh danh là “chốn bồng lai tiên cảnh”, sở hữu khí hậu tuyệt vời cùng cảnh quan thiên nhiên kỳ thú. Đến với Sun World Ba Na Hills để trải nghiệm khí hậu 4 mùa trong một ngày cùng nhiều hoạt động lễ hội, vui chơi giải trí, ẩm thực hấp dẫn đa dạng.."
+      ]
+    },
+    {
+      "tag": "Nui_than_tai",
+      "patterns": [
+        "Có tour nào tham quan núi thần tài không ?",
+        "tôi muốn tham quan núi thần tài",
+        "Tham quan núi thần tài."
+      ],
+      "responses": ["Về điểm du lịch {},bên em có các tour {}."]
+    },
+    {
+      "tag": "Nuithantai",
+      "patterns": [
+        "tôi muốn tìm hiểu về Núi Thần Tài",
+        "Thông tin Núi Thần Tài",
+        "Núi Thần Tài có gì?",
+        "Đi Núi Thần Tài chơi gì?"
+      ],
+      "responses": [
+        "Công viên suối khoáng nóng Núi Thần Tài tọa lạc tại khu bảo tồn thiên nhiên Bà Nà Núi Chúa. Nguồn suối khoáng nóng tại Núi Thần Tài khởi nguồn từ đỉnh núi Bà Nà. Bao bọc hai bên là núi Thanh Long và Bạch Hổ. Nguồn suối nóng âm ỉ tích khoáng trong lòng đất và và phát lộ tại long huyệt tại thôn Phú Túc, xã Hòa Phú, huyện Hòa Vang, TP Đà Nẵng.."
+      ]
+    },
+    {
+      "tag": "Cu_Lao_Cham",
+      "patterns": [
+        "Có tour nào tham quan Cù Lao Chàm không ?",
+        "tôi muốn tham quan Cù Lao Chàm",
+        "Tham quan Cù Lao Chàm."
+      ],
+      "responses": ["Về điểm du lịch {},bên em có các tour {}."]
+    },
+    {
+      "tag": "CuLaoCham",
+      "patterns": [
+        "tôi muốn tìm hiểu về Cù Lao Chàm",
+        "Thông tin Cù Lao Chàm",
+        "Cù Lao Chàm có gì?",
+        "Đi Cù Lao Chàm chơi gì?"
+      ],
+      "responses": [
+        "Cụm đảo Cù Lao Chàm còn có tên gọi khác là Chiêm Bất Lao, gồm 1 hòn đảo chính và 8 hòn đảo nhỏ xung quanh. Đây là vùng cù lao có diện tích khoảng 15km2, thuộc địa phận thành phố Hội An, tỉnh Quảng Nam.Vì còn hoang sơ nên nơi đây có hệ sinh thái khá phong phú. Vào năm 2009, UNESCO đã công nhận nơi đây là một trong những khu dự trữ sinh quyển của thế giới. Từ đó, cụm đảo này đã được cấp phép khai thác và quảng bá du lịch."
+      ]
+    },
+    {
+      "tag": "Rung_dua_bay_mau",
+      "patterns": [
+        "Có tour nào tham quan rừng dừa bãy mẫu không ?",
+        "tôi muốn tham quan rừng dừa bãy mẫu",
+        "Tham quan rừng dừa bãy mẫu."
+      ],
+      "responses": ["Về điểm du lịch {},bên em có các tour {}."]
+    },
+    {
+      "tag": "RungDuaMau",
+      "patterns": [
+        "tôi muốn tìm hiểu về rừng dừa bãy mẫu",
+        "Thông tin rừng dừa bãy mẫu",
+        "rừng dừa bãy mẫu có gì?",
+        "Đi rừng dừa bãy mẫu chơi gì?"
+      ],
+      "responses": [
+        "Rừng dừa Bảy Mẫu là khu du lịch sinh thái nổi tiếng ở Hội An. Đến đây, bạn sẽ được trải nghiệm ngồi thuyền thúng tham quan khu rừng dừa xanh mướt giữa không gian yên bình, được chiêm ngưỡng tiết mục múa thúng, đua thuyền và thưởng thức đặc sản địa phương…"
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "cho em hỏi chi phí tour 2 ngày 1 đêm A1 với ạ",
+        "cho em hỏi chi phí tour 2 ngày 1 đêm A2 với ạ",
+        "cho em hỏi chi phí tour 2 ngày 1 đêm A3 với ạ",
+        "cho em hỏi chi phí tour 3 ngày 2 đêm B1 với ạ ",
+        "cho em hỏi chi phí tour 3 ngày 2 đêm B2 với ạ ",
+        "cho em hỏi chi phí tour 3 ngày 2 đêm B3 với ạ ",
+        "cho em hỏi chi phí tour 4 ngày 3 đêm C1 với ạ",
+        "cho em hỏi chi phí tour 4 ngày 3 đêm C2 với ạ",
+        "cho em hỏi chi phí tour 4 ngày 3 đêm C3 với ạ",
+        "cho em hỏi chi phí tour 5 ngày 4 đêm D1 với ạ",
+        "cho em hỏi giá của tour 2 ngày 1 đêm A1 với ạ",
+        "cho em hỏi giá của tour 2 ngày 1 đêm A2 với ạ",
+        "cho em hỏi giá của tour 2 ngày 1 đêm A3 với ạ",
+        "cho em hỏi giá của tour 3 ngày 2 đêm B1 với ạ",
+        "cho em hỏi giá của tour 3 ngày 2 đêm B2 với ạ",
+        "cho em hỏi giá của tour 3 ngày 2 đêm B3 với ạ",
+        "cho em hỏi giá của tour 4 ngày 3 đêm C1 với ạ",
+        "cho em hỏi giá của tour 4 ngày 3 đêm C2 với ạ",
+        "cho em hỏi giá của tour 4 ngày 3 đêm C3 với ạ",
+        "cho em hỏi giá của tour 5 ngày 4 đêm D1 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 2 ngày 1 đêm A1 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 2 ngày 1 đêm A2 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 2 ngày 1 đêm A3 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 3 ngày 2 đêm B1 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 3 ngày 2 đêm B2 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 3 ngày 2 đêm B3 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 4 ngày 3 đêm C1 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 4 ngày 3 đêm C2 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 4 ngày 3 đêm C3 với ạ",
+        "Dạ ad cho em hỏi chi phí tour 5 ngày 4 đêm D1 với ạ",
+        "Dạ ad cho em hỏi tour 2 ngày 1 đêm A1 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 2 ngày 1 đêm A2 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 2 ngày 1 đêm A3 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 3 ngày 2 đêm B1 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 3 ngày 2 đêm B2 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 3 ngày 2 đêm B3 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 4 ngày 3 đêm C1 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 4 ngày 3 đêm C2 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 4 ngày 3 đêm C3 hết bao nhiêu với ạ",
+        "Dạ ad cho em hỏi tour 5 ngày 4 đêm D1 hết bao nhiêu với ạ",
+        "chi phí tour 2 ngày 1 đêm A1",
+        "chi phí tour 2 ngày 1 đêm A2",
+        "chi phí tour 2 ngày 1 đêm A3",
+        "chi phí tour 3 ngày 2 đêm B1",
+        "chi phí tour 3 ngày 2 đêm B2",
+        "chi phí tour 3 ngày 2 đêm B3",
+        "chi phí tour 4 ngày 3 đêm C1",
+        "chi phí tour 4 ngày 3 đêm C2",
+        "chi phí tour 4 ngày 3 đêm C3",
+        "chi phí tour 5 ngày 4 đêm D1",
+        "giá của tour 2 ngày 1 đêm A1",
+        "giá của tour 2 ngày 1 đêm A2",
+        "giá của tour 2 ngày 1 đêm A3",
+        "giá của tour 3 ngày 2 đêm B1",
+        "giá của tour 3 ngày 2 đêm B2",
+        "giá của tour 3 ngày 2 đêm B3",
+        "giá của tour 4 ngày 3 đêm C1",
+        "giá của tour 4 ngày 3 đêm C2",
+        "giá của tour 4 ngày 3 đêm C3",
+        "giá của tour 5 ngày 4 đêm D1",
+        "Ad cho em hỏi chi phí tour 2 ngày 1 đêm A1 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 2 ngày 1 đêm A2 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 2 ngày 1 đêm A3 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 3 ngày 2 đêm B1 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 3 ngày 2 đêm B2 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 3 ngày 2 đêm B3 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 4 ngày 3 đêm C1 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 4 ngày 3 đêm C2 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 4 ngày 3 đêm C3 là như thế nào ạ",
+        "Ad cho em hỏi chi phí tour 5 ngày 4 đêm D1 là như thế nào ạ",
+        "Tiền tour 2 ngày 1 đêm A1 bao nhiêu",
+        "Tiền tour 2 ngày 1 đêm A2 bao nhiêu",
+        "Tiền tour 2 ngày 1 đêm A3 bao nhiêu",
+        "Tiền tour 3 ngày 2 đêm B1 bao nhiêu",
+        "Tiền tour 3 ngày 2 đêm B2 bao nhiêu",
+        "Tiền tour 3 ngày 2 đêm B3 bao nhiêu",
+        "Tiền tour 4 ngày 3 đêm C1 bao nhiêu",
+        "Tiền tour 4 ngày 3 đêm C2 bao nhiêu",
+        "Tiền tour 4 ngày 3 đêm C3 bao nhiêu",
+        "Tiền tour 5 ngày 4 đêm D1 bao nhiêu",
+        "Chi phí phải trả của tour 2 ngày 1 đêm A1",
+        "Chi phí phải trả của tour 2 ngày 1 đêm A2",
+        "Chi phí phải trả của tour 2 ngày 1 đêm A3",
+        "Chi phí phải trả của tour 3 ngày 2 đêm B1",
+        "Chi phí phải trả của tour 3 ngày 2 đêm B2",
+        "Chi phí phải trả của tour 3 ngày 2 đêm B3",
+        "Chi phí phải trả của tour 4 ngày 3 đêm C1",
+        "Chi phí phải trả của tour 4 ngày 3 đêm C2",
+        "Chi phí phải trả của tour 4 ngày 3 đêm C3",
+        "Chi phí phải trả của tour 5 ngày 4 đêm D1",
+        "ad cho hỏi chi phí tour 2 ngày 1 đêm bao nhiêu tiền A1",
+        "ad cho hỏi chi phí tour 2 ngày 1 đêm bao nhiêu tiền A2",
+        "ad cho hỏi chi phí tour 2 ngày 1 đêm bao nhiêu tiền A3",
+        "ad cho hỏi chi phí tour 3 ngày 2 đêm bao nhiêu tiền B1",
+        "ad cho hỏi chi phí tour 3 ngày 2 đêm bao nhiêu tiền B2",
+        "ad cho hỏi chi phí tour 3 ngày 2 đêm bao nhiêu tiền B3",
+        "ad cho hỏi chi phí tour 4 ngày 3 đêm bao nhiêu tiền C1",
+        "ad cho hỏi chi phí tour 4 ngày 3 đêm bao nhiêu tiền C2",
+        "ad cho hỏi chi phí tour 4 ngày 3 đêm bao nhiêu tiền C3",
+        "ad cho hỏi chi phí tour 5 ngày 4 đêm bao nhiêu tiền D1",
+        "Tiền tour 2 ngày 1 đêm là bao nhiêu A1",
+        "Tiền tour 2 ngày 1 đêm là bao nhiêu A2",
+        "Tiền tour 2 ngày 1 đêm là bao nhiêu A3",
+        "Tiền tour 3 ngày 2 đêm là bao nhiêu B1",
+        "Tiền tour 3 ngày 2 đêm là bao nhiêu B2",
+        "Tiền tour 3 ngày 2 đêm là bao nhiêu B3",
+        "Tiền tour 4 ngày 3 đêm là bao nhiêu C1",
+        "Tiền tour 4 ngày 3 đêm là bao nhiêu C2",
+        "Tiền tour 4 ngày 3 đêm là bao nhiêu C3",
+        "Tiền tour 5 ngày 4 đêm là bao nhiêu D1",
+        "chi phí tour 2 ngày 1 đêm A1 là mấy",
+        "chi phí tour 2 ngày 1 đêm A2 là mấy",
+        "chi phí tour 2 ngày 1 đêm A3 là mấy",
+        "chi phí tour 3 ngày 2 đêm B1 là mấy",
+        "chi phí tour 3 ngày 2 đêm B2 là mấy",
+        "chi phí tour 3 ngày 2 đêm B3 là mấy",
+        "chi phí tour 4 ngày 3 đêm C1 là mấy",
+        "chi phí tour 4 ngày 3 đêm C2 là mấy",
+        "chi phí tour 4 ngày 3 đêm C3 là mấy",
+        "chi phí tour 5 ngày 4 đêm D1 là mấy",
+        "Cho em hỏi chi phí tour 2 ngày 1 đêm A1 là mấy",
+        "Cho em hỏi chi phí tour 2 ngày 1 đêm A2 là mấy",
+        "Cho em hỏi chi phí tour 2 ngày 1 đêm A3 là mấy",
+        "Cho em hỏi chi phí tour 3 ngày 2 đêm B1 là mấy",
+        "Cho em hỏi chi phí tour 3 ngày 2 đêm B2 là mấy",
+        "Cho em hỏi chi phí tour 3 ngày 2 đêm B3 là mấy",
+        "Cho em hỏi chi phí tour 4 ngày 3 đêm C1 là mấy",
+        "Cho em hỏi chi phí tour 4 ngày 3 đêm C2 là mấy",
+        "Cho em hỏi chi phí tour 4 ngày 3 đêm C3 là mấy",
+        "Cho em hỏi chi phí tour 5 ngày 4 đêm D1 là mấy",
+        "Dạ ad cho hỏi chi phí tour 2 ngày 1 đêm A1 với",
+        "Dạ ad cho hỏi chi phí tour 2 ngày 1 đêm A2 với",
+        "Dạ ad cho hỏi chi phí tour 2 ngày 1 đêm A3 với",
+        "Dạ ad cho hỏi chi phí tour 3 ngày 2 đêm B1 với",
+        "Dạ ad cho hỏi chi phí tour 3 ngày 2 đêm B2 với",
+        "Dạ ad cho hỏi chi phí tour 3 ngày 2 đêm B3 với",
+        "Dạ ad cho hỏi chi phí tour 4 ngày 3 đêm C1 với",
+        "Dạ ad cho hỏi chi phí tour 4 ngày 3 đêm C2 với",
+        "Dạ ad cho hỏi chi phí tour 4 ngày 3 đêm C3 với",
+        "Dạ ad cho hỏi chi phí tour 5 ngày 4 đêm D1 với",
+        "Ad cho em hỏi giá tour 2 ngày 1 đêm A1 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 2 ngày 1 đêm A2 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 2 ngày 1 đêm A3 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 3 ngày 2 đêm B1 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 3 ngày 2 đêm B2 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 3 ngày 2 đêm B3 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 4 ngày 3 đêm C1 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 4 ngày 3 đêm C2 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 4 ngày 3 đêm C3 là bao tiền ạ",
+        "Ad cho em hỏi giá tour 5 ngày 4 đêm D1 là bao tiền ạ",
+        "Tiền tour 2 ngày 1 đêm A1 mấy tiền vậy",
+        "Tiền tour 2 ngày 1 đêm A2 mấy tiền vậy",
+        "Tiền tour 2 ngày 1 đêm A3 mấy tiền vậy",
+        "Tiền tour 3 ngày 2 đêm B1 mấy tiền vậy",
+        "Tiền tour 3 ngày 2 đêm B2 mấy tiền vậy",
+        "Tiền tour 3 ngày 2 đêm B3 mấy tiền vậy",
+        "Tiền tour 4 ngày 3 đêm C1 mấy tiền vậy",
+        "Tiền tour 4 ngày 3 đêm C2 mấy tiền vậy",
+        "Tiền tour 4 ngày 3 đêm C3 mấy tiền vậy",
+        "Tiền tour 5 ngày 4 đêm D1 mấy tiền vậy",
+        "Chi phí tour 2 ngày 1 đêm A1 là bao nhiêu thế",
+        "Chi phí tour 2 ngày 1 đêm A2 là bao nhiêu thế",
+        "Chi phí tour 2 ngày 1 đêm A3 là bao nhiêu thế",
+        "Chi phí tour 3 ngày 2 đêm B1 là bao nhiêu thế",
+        "Chi phí tour 3 ngày 2 đêm B2 là bao nhiêu thế",
+        "Chi phí tour 3 ngày 2 đêm B3 là bao nhiêu thế",
+        "Chi phí tour 4 ngày 3 đêm C1 là bao nhiêu thế",
+        "Chi phí tour 4 ngày 3 đêm C2 là bao nhiêu thế",
+        "Chi phí tour 4 ngày 3 đêm C3 là bao nhiêu thế",
+        "Chi phí tour 5 ngày 4 đêm D1 là bao nhiêu thế",
+        "Dạ ad cho hỏi tour 2 ngày 1 đêm A1 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 2 ngày 1 đêm A2 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 2 ngày 1 đêm A3 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 3 ngày 2 đêm B1 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 3 ngày 2 đêm B2 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 3 ngày 2 đêm B3 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 4 ngày 3 đêm C1 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 4 ngày 3 đêm C2 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 4 ngày 3 đêm C3 mấy tiền vậy ạ",
+        "Dạ ad cho hỏi tour 5 ngày 4 đêm D1 mấy tiền vậy ạ",
+        "Tổng tiền tour 2 ngày 1 đêm A1 là mấy",
+        "Tổng tiền tour 2 ngày 1 đêm A2 là mấy",
+        "Tổng tiền tour 2 ngày 1 đêm A3 là mấy",
+        "Tổng tiền tour 3 ngày 2 đêm B1 là mấy",
+        "Tổng tiền tour 3 ngày 2 đêm B2 là mấy",
+        "Tổng tiền tour 3 ngày 2 đêm B3 là mấy",
+        "Tổng tiền tour 4 ngày 3 đêm C1 là mấy",
+        "Tổng tiền tour 4 ngày 3 đêm C2 là mấy",
+        "Tổng tiền tour 4 ngày 3 đêm C3 là mấy",
+        "Tổng tiền tour 5 ngày 4 đêmD1  là mấy"
+      ],
+      "responses": ["giá thành cho {} là {} triệu đồng/1 người bạn nhé!"]
+    },
+    {
+      "tag": "LichTrinh",
+      "patterns": [
+        "cho em hỏi lịch trình tour 2 ngày 1 đêm A1 ạ",
+        "cho em hỏi lịch trình tour 3 ngày 2 đêm B1 ạ",
+        "cho em hỏi lịch trình tour 4 ngày 3 đêm C1 ạ",
+        "cho em hỏi lịch trình tour 5 ngày 4 đêm D1 ạ",
+        "cho em hỏi lịch trình tour 2 ngày 1 đêm A2 ạ",
+        "cho em hỏi lịch trình tour 3 ngày 2 đêm B2 ạ",
+        "cho em hỏi lịch trình tour 4 ngày 3 đêm C2 ạ",
+        "cho em hỏi lịch trình tour 2 ngày 1 đêm A3 ạ",
+        "cho em hỏi lịch trình tour 3 ngày 2 đêm B3 ạ",
+        "cho em hỏi lịch trình tour 4 ngày 3 đêm D3 ạ",
+        "Lịch trình tour 2 ngày 1 đêm A1 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 3 ngày 2 đêm B1 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 4 ngày 3 đêm C1 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 5 ngày 4 đêm D1 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 2 ngày 1 đêm A2 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 3 ngày 2 đêm B2 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 4 ngày 3 đêm C2 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 2 ngày 1 đêm A3 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 3 ngày 2 đêm B3 bao gồm những điểm tham quan nào?",
+        "Lịch trình tour 4 ngày 3 đêm C3 bao gồm những điểm tham quan nào?",
+        "Tour 2 ngày 1 đêm A1 bao gồm những điểm đến nào?",
+        "Tour 3 ngày 2 đêm B1 bao gồm những điểm đến nào?",
+        "Tour 4 ngày 3 đêm C1 bao gồm những điểm đến nào?",
+        "Tour 5 ngày 4 đêm D1 bao gồm những điểm đến nào?",
+        "Tour 2 ngày 1 đêm A2 bao gồm những điểm đến nào?",
+        "Tour 3 ngày 2 đêm B2 bao gồm những điểm đến nào?",
+        "Tour 4 ngày 3 đêm C2 bao gồm những điểm đến nào?",
+        "Tour 2 ngày 1 đêm A3 bao gồm những điểm đến nào?",
+        "Tour 3 ngày 2 đêm B3 bao gồm những điểm đến nào?",
+        "Tour 4 ngày 3 đêm C3 bao gồm những điểm đến nào?"
+      ],
+      "responses": ["Lịch trình của {} gồm những địa điểm sau {}"]
+    },
+    {
+      "tag": "Cancel_Tour",
+      "patterns": [
+        "Nếu hủy tour 2 ngày 1 đêm A1, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 3 ngày 2 đêm B1, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 4 ngày 3 đêm C1, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 5 ngày 4 đêm D1, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 2 ngày 1 đêm A2, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 3 ngày 2 đêm B2, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 4 ngày 3 đêm C2, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 2 ngày 1 đêm A3, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 3 ngày 2 đêm B3, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu hủy tour 4 ngày 3 đêm C3, tôi sẽ được hoàn trả bao nhiêu tiền?",
+        "Nếu tôi hủy tour 2 ngày 1 đêm A1 và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 3 ngày 2 đêm B1  và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 4 ngày 3 đêm C1  và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 5 ngày 4 đêm D1  và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 2 ngày 1 đêm A2 và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 3 ngày 2 đêm B2  và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 4 ngày 3 đêm C2  và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 2 ngày 1 đêm A3 và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 3 ngày 2 đêm B3 và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Nếu tôi hủy tour 4 ngày 3 đêm C3 và chuyển đổi tour khác thì có được hoàn trả tiền tour không?",
+        "Hủy tour 2 ngày 1 đêm A1 thì được trả bao nhiêu tiền",
+        "Hủy tour 3 ngày 2 đêm B1 thì được trả bao nhiêu tiền",
+        "Hủy tour 4 ngày 3 đêm C1 thì được trả bao nhiêu tiền",
+        "Hủy tour 5 ngày 4 đêm D1 thì được trả bao nhiêu tiền",
+        "Hủy tour 2 ngày 1 đêm A2 thì được trả bao nhiêu tiền",
+        "Hủy tour 3 ngày 2 đêm B2 thì được trả bao nhiêu tiền",
+        "Hủy tour 4 ngày 3 đêm C2 thì được trả bao nhiêu tiền",
+        "Hủy tour 2 ngày 1 đêm A3 thì được trả bao nhiêu tiền",
+        "Hủy tour 3 ngày 2 đêm B3 thì được trả bao nhiêu tiền",
+        "Hủy tour 4 ngày 3 đêm C3 thì được trả bao nhiêu tiền",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 2 ngày 1 đêm A1",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 3 ngày 2 đêm B1",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 4 ngày 3 đêm C1",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 5 ngày 4 đêm D1",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 2 ngày 1 đêm A2",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 3 ngày 2 đêm B2",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 4 ngày 3 đêm C2",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 2 ngày 1 đêm A3",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 3 ngày 2 đêm B3",
+        "Tôi được trả lại bao nhiêu tiền nếu hủy tour 4 ngày 3 đêm C3"
+      ],
+      "responses": [
+        "Việc hủy Tour sẽ tùy vào thời điểm và tất cả trường hợp người cao tuổi , trẻ em đều hoàn lại 1 giá cố định ,đối với {} thì sẽ hoàn lại {}/1 người ạ"
+      ]
+    },
+    {
+      "tag": "Cut_price",
+      "patterns": [
+        "Giảm giá cho trẻ em tour 2 ngày 1 đêm A1 ạ",
+        "Giảm giá cho trẻ em tour 3 ngày 2 đêm B1 ạ",
+        "Giảm giá cho trẻ em tour 4 ngày 3 đêm C1 ạ",
+        "Giảm giá cho trẻ em cho tour 5 ngày 4 đêm D1 ạ",
+        "Giảm giá cho trẻ em tour 2 ngày 1 đêm A2 ạ",
+        "Giảm giá cho trẻ em tour 3 ngày 2 đêm B2 ạ",
+        "Giảm giá cho trẻ em tour 4 ngày 3 đêm C2 ạ",
+        "Giảm giá cho trẻ em tour 2 ngày 1 đêm A3 ạ",
+        "Giảm giá cho trẻ em tour 3 ngày 2 đêm A3 ạ",
+        "Giảm giá cho trẻ em tour 4 ngày 3 đêm A3 ạ",
+        "Giảm giá cho người cao tuổi tour 2 ngày 1 đêm A1 ạ",
+        "Giảm giá cho người cao tuổi tour 3 ngày 2 đêm B1 ạ",
+        "Giảm giá cho người cao tuổi tour 4 ngày 3 đêm C1 ạ",
+        "Giảm giá cho người cao tuổi tour 5 ngày 4 đêm D1 ạ",
+        "Giảm giá cho người cao tuổi tour 2 ngày 1 đêm A2 ạ",
+        "Giảm giá cho người cao tuổi tour 3 ngày 2 đêm B2 ạ",
+        "Giảm giá cho người cao tuổi tour 4 ngày 3 đêm C2 ạ",
+        "Giảm giá cho người cao tuổi tour 2 ngày 1 đêm A3 ạ",
+        "Giảm giá cho người cao tuổi tour 3 ngày 2 đêm A3 ạ",
+        "Giảm giá cho người cao tuổi tour 4 ngày 3 đêm A3 ạ",
+        "Trẻ em có được giảm giá đối với tour 2 ngày 1 đêm A1 không ",
+        "Trẻ em có được giảm giá đối với tour 3 ngày 2 đêm B1 không ",
+        "Trẻ em có được giảm giá đối với tour 4 ngày 3 đêm C1 không ",
+        "Trẻ em có được giảm giá đối với tour 5 ngày 4 đêm D1 không ",
+        "Trẻ em có được giảm giá đối với tour 2 ngày 1 đêm A2 không ",
+        "Trẻ em có được giảm giá đối với tour 3 ngày 2 đêm B2 không ",
+        "Trẻ em có được giảm giá đối với tour 4 ngày 3 đêm C2 không ",
+        "Trẻ em có được giảm giá đối với tour 2 ngày 1 đêm A3 không ",
+        "Trẻ em có được giảm giá đối với tour 3 ngày 2 đêm B3 không ",
+        "Trẻ em có được giảm giá đối với tour 4 ngày 3 đêm C3 không ",
+        "Người cao tuổi có được giảm giá đối với tour 2 ngày 1 đêm A1 không ",
+        "Người cao tuổi có được giảm giá đối với tour 3 ngày 2 đêm B1 không ",
+        "Người cao tuổi có được giảm giá đối với tour 4 ngày 3 đêm C1 không ",
+        "Người cao tuổi có được giảm giá đối với tour 5 ngày 4 đêm D1 không ",
+        "Người cao tuổi có được giảm giá đối với tour 2 ngày 1 đêm A2 không ",
+        "Người cao tuổi có được giảm giá đối với tour 3 ngày 2 đêm B2 không ",
+        "Người cao tuổi có được giảm giá đối với tour 4 ngày 3 đêm C2 không ",
+        "Người cao tuổi có được giảm giá đối với tour 2 ngày 1 đêm A3 không ",
+        "Người cao tuổi có được giảm giá đối với tour 3 ngày 2 đêm B3 không ",
+        "Người cao tuổi có được giảm giá đối với tour 4 ngày 3 đêm C3 không "
+      ],
+      "responses": [
+        "Việc giảm giá sẽ tùy thời điểm,Đối với {} thì giá sau khi giảm sẽ còn là {}"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "state_vector": [
+    {
+      "tag": "Tour 2 ngày 1 đêm",
+      "patterns": [
+        "2n1d",
+        "2 ngày 1 đêm",
+        "2 n 1 d",
+        "t 2n1d",
+        "T 2n1d",
+        "t2n1d",
+        "T2n1d"
+      ]
+    },
+    {
+      "tag": "Tour 3 ngày 2 đêm",
+      "patterns": [
+        "3n2d",
+        "3 ngày 2 đêm",
+        "3 n 2 d",
+        "t 3n2d",
+        "T 3n2d",
+        "t3n2d",
+        "T3n2d"
+      ]
+    },
+    {
+      "tag": "Tour 4 ngày 3 đêm",
+      "patterns": [
+        "4n3d",
+        "4 ngày 3 đêm",
+        "4 n 3 d",
+        "t 4n3d",
+        "T 4n3d",
+        "t4n3d",
+        "T4n3d"
+      ]
+    },
+    {
+      "tag": "Tour 5 ngày 4 đêm",
+      "patterns": [
+        "5n4d",
+        "5 ngày 4 đêm",
+        "5 n 4 d",
+        "t 5n4d",
+        "T 5n4d",
+        "t5n4d",
+        "T5n4d"
+      ]
+    },
+    {
+      "tag": "Tour 2 ngày 1 đêm A1",
+      "patterns": [
+        "2n1dA1",
+        "2n1da1",
+        "2 ngày 1 đêm A1",
+        "2 ngày 1 đêm a1",
+        "2 n 1 d A1",
+        "2 n 1 d a1",
+        "t 2n1d A1",
+        "t 2n1d a1",
+        "t 2n1dA1",
+        "t 2n1da1",
+        "T 2n1d A1",
+        "T 2n1d a1",
+        "T 2n1dA1",
+        "T 2n1da1",
+        "t2n1dA1",
+        "t2n1da1",
+        "T2n1dA1",
+        "T2n1da1",
+        "A1",
+        "a1"
+      ]
+    },
+    {
+      "tag": "Tour 2 ngày 1 đêm A2",
+      "patterns": [
+        "2n1dA2",
+        "2n1da2",
+        "2 ngày 1 đêm A2",
+        "2 ngày 1 đêm a2",
+        "2 n 1 d A2",
+        "2 n 1 d a2",
+        "t 2n1d A2",
+        "t 2n1d a2",
+        "t 2n1dA2",
+        "t 2n1da2",
+        "T 2n1d A2",
+        "T 2n1d a2",
+        "T 2n1dA2",
+        "T 2n1da2",
+        "t2n1dA2",
+        "t2n1da2",
+        "T2n1dA2",
+        "T2n1da2",
+        "A2",
+        "a2"
+      ]
+    },
+    {
+      "tag": "Tour 2 ngày 1 đêm A3",
+      "patterns": [
+        "2n1dA3",
+        "2n1da3",
+        "2 ngày 1 đêm A3",
+        "2 ngày 1 đêm a3",
+        "2 n 1 d A3",
+        "2 n 1 d a3",
+        "t 2n1d A3",
+        "t 2n1d a3",
+        "t 2n1dA3",
+        "t 2n1da3",
+        "T 2n1d A3",
+        "T 2n1d a3",
+        "T 2n1dA3",
+        "T 2n1da3",
+        "t2n1dA3",
+        "t2n1da3",
+        "T2n1dA3",
+        "T2n1da3",
+        "A3",
+        "a3"
+      ]
+    },
+    {
+      "tag": "Tour 3 ngày 2 đêm B1",
+      "patterns": [
+        "3n2dB1",
+        "3n2db1",
+        "3 ngày 2 đêm B1",
+        "3 ngày 2 đêm b1",
+        "3 n 2 d B1",
+        "3 n 2 d b1",
+        "t 3n2d B1",
+        "t 3n2d b1",
+        "t 3n2dB1",
+        "t 3n2db1",
+        "T 3n2d B1",
+        "T 3n2d b1",
+        "T 3n2dB1",
+        "T 3n2db1",
+        "t3n2dB1",
+        "t3n2db1",
+        "T3n2dB1",
+        "T3n2db1",
+        "B1",
+        "b1"
+      ]
+    },
+    {
+      "tag": "Tour 3 ngày 2 đêm B2",
+      "patterns": [
+        "3n2dB2",
+        "3n2db2",
+        "3 ngày 2 đêm B2",
+        "3 ngày 2 đêm b2",
+        "3 n 2 d B2",
+        "3 n 2 d b2",
+        "t 3n2d B2",
+        "t 3n2d b2",
+        "t 3n2dB2",
+        "t 3n2db2",
+        "T 3n2d B2",
+        "T 3n2d b2",
+        "T 3n2dB2",
+        "T 3n2db2",
+        "t3n2dB2",
+        "t3n2db2",
+        "T3n2dB2",
+        "T3n2db2",
+        "B2",
+        "b2"
+      ]
+    },
+    {
+      "tag": "Tour 3 ngày 2 đêm B3",
+      "patterns": [
+        "3n2dB3",
+        "3n2db3",
+        "3 ngày 2 đêm B3",
+        "3 ngày 2 đêm b3",
+        "3 n 2 d B3",
+        "3 n 2 d b3",
+        "t 3n2d B3",
+        "t 3n2d b3",
+        "t 3n2dB3",
+        "t 3n2db3",
+        "T 3n2d B3",
+        "T 3n2d b3",
+        "T 3n2dB3",
+        "T 3n2db3",
+        "t3n2dB3",
+        "t3n2db3",
+        "T3n2dB3",
+        "T3n2db3",
+        "B3",
+        "b3"
+      ]
+    },
+    {
+      "tag": "Tour 4 ngày 3 đêm C1",
+      "patterns": [
+        "4n3dC1",
+        "4n3dc1",
+        "4 ngày 3 đêm C1",
+        "4 ngày 3 đêm c1",
+        "4 n 3 d C1",
+        "4 n 3 d c1",
+        "t 4n3d C1",
+        "t 4n3d c1",
+        "t 4n3dC1",
+        "t 4n3dc1",
+        "T 4n3d C1",
+        "T 4n3d c1",
+        "T 4n3dC1",
+        "T 4n3dc1",
+        "t4n3dC1",
+        "t4n3dc1",
+        "T4n3dC1",
+        "T4n3dc1",
+        "c1",
+        "C1"
+      ]
+    },
+    {
+      "tag": "Tour 4 ngày 3 đêm C2",
+      "patterns": [
+        "4n3dC2",
+        "4n3dc2",
+        "4 ngày 3 đêm C2",
+        "4 ngày 3 đêm c2",
+        "4 n 3 d C2",
+        "4 n 3 d c2",
+        "t 4n3d C2",
+        "t 4n3d c2",
+        "t 4n3dC2",
+        "t 4n3dc2",
+        "T 4n3d C2",
+        "T 4n3d c2",
+        "T 4n3dC2",
+        "T 4n3dc2",
+        "t4n3dC2",
+        "t4n3dc2",
+        "T4n3dC2",
+        "T4n3dc2",
+        "c2",
+        "C2"
+      ]
+    },
+    {
+      "tag": "Tour 4 ngày 3 đêm C3",
+      "patterns": [
+        "4n3dC3",
+        "4n3dc3",
+        "4 ngày 3 đêm C3",
+        "4 ngày 3 đêm c3",
+        "4 n 3 d C3",
+        "4 n 3 d c3",
+        "t 4n3d C3",
+        "t 4n3d c3",
+        "t 4n3dC3",
+        "t 4n3dc3",
+        "T 4n3d C3",
+        "T 4n3d c3",
+        "T 4n3dC3",
+        "T 4n3dc3",
+        "t4n3dC3",
+        "t4n3dc3",
+        "T4n3dC3",
+        "T4n3dc3",
+        "c3",
+        "C3"
+      ]
+    },
+    {
+      "tag": "Tour 5 ngày 4 đêm D1",
+      "patterns": [
+        "5n4dd1",
+        "5n4dD1",
+        "5 ngày 4 đêm D1",
+        "5 ngày 4 đêm d1",
+        "5 n 4 d D1",
+        "5 n 4 d d1",
+        "t 5n4d D1",
+        "t 5n4d d1",
+        "t 5n4dD1",
+        "t 5n4dd1",
+        "T 5n4d D1",
+        "T 5n4d d1",
+        "T 5n4dD1",
+        "T 5n4dd1",
+        "t5n4dD1",
+        "t5n4dd1",
+        "T5n4dD1",
+        "T5n4dd1",
+        "d1",
+        "D1"
+      ]
+    },
+    {
+      "tag": "DANANG tourist",
+      "patterns": [
+        "DANANG TOURIST",
+        "danang tourist",
+        "DN T",
+        "DN tour",
+        "danang tour",
+        "DN",
+        "dn"
+      ]
+    }
+  ]
+}
